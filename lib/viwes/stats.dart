@@ -131,7 +131,7 @@ class _StatsScreenState extends State<StatsScreen> {
                       sideTitles: SideTitles(
                         showTitles: true,
                         maxIncluded: true,
-                        reservedSize: 40.w,
+                        reservedSize: 40.r,
                         getTitlesWidget: (value, meta) {
                           return SideTitleWidget(
                             child: Text('$value'),
@@ -147,13 +147,11 @@ class _StatsScreenState extends State<StatsScreen> {
                       ),
                       sideTitles: SideTitles(
                         showTitles: true,
-                        reservedSize: 30.h,
+                        reservedSize: 30.dg,
                         getTitlesWidget: (value, meta) => SideTitleWidget(
                           child: Text(
                             dateDayFormatter(ordersDatesSorted[value.toInt()]),
-                            style: AppTextStyle.textStyle10.copyWith(
-                              fontWeight: FontWeight.w500,
-                            ),
+                            style: AppTextStyle.textStyle8.copyWith(),
                           ),
                           angle: -20,
                           axisSide: AxisSide.bottom,

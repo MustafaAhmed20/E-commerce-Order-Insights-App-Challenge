@@ -100,8 +100,7 @@ class _HomePageState extends State<HomePage> {
 
             // orange top
             Container(
-              width: 1.sw,
-              height: 35.h,
+              constraints: BoxConstraints(minHeight: 35.h, minWidth: 1.sw),
               padding: EdgeInsetsDirectional.only(
                 start: 10.w,
                 end: 10.w,
@@ -332,9 +331,8 @@ class _OrderBoxState extends State<_OrderBox> {
 
           //
           // Header
-          header: SizedBox(
-            height: minHeight,
-            width: 1.sw,
+          header: ConstrainedBox(
+            constraints: BoxConstraints(minHeight: minHeight, minWidth: 1.sw),
             child: _OrderBoxHeader(
               order: widget.order,
             ),
@@ -374,14 +372,15 @@ class _OrderBoxHeader extends StatelessWidget {
         children: [
           // image
           Container(
-            height: 76.h,
-            width: 83.w,
+            height: 80.dg,
+            width: 80.dg,
             clipBehavior: Clip.hardEdge,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10.sp),
             ),
             child: Image.asset(
               'assets/images/logo.jpg',
+              fit: BoxFit.fill,
             ),
           ),
 

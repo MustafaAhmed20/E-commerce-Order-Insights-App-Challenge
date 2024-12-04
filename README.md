@@ -44,3 +44,7 @@ file (`ORDERS.JSON`) and displaying key metrics and a graphical representation o
 2**iOS**
    - ![screenshot](assets/screenshots/ios/1.png) 
    - ![screenshot](assets/screenshots/ios/2.png) 
+
+2**web**
+   - ![screenshot](assets/screenshots/web/1.PNG) 
+   - ![screenshot](assets/screenshots/web/2.PNG) 
