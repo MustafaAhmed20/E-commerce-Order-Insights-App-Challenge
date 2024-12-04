@@ -34,3 +34,13 @@ file (`ORDERS.JSON`) and displaying key metrics and a graphical representation o
 2. **Graph Screen:**
     * Navigate to the graph screen.
     * View the line chart representing the number of orders over time.
+
+## Screenshots
+
+1. **Android**
+   - ![screenshot](assets/screenshots/android/1.png) 
+   - ![screenshot](assets/screenshots/android/2.png) 
+
+2**iOS**
+   - ![screenshot](assets/screenshots/ios/1.png) 
+   - ![screenshot](assets/screenshots/ios/2.png) 
